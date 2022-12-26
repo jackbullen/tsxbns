@@ -1,0 +1,166 @@
+:root {
+  --font-family: "Helvetica Neue", sans-serif;
+  --background-color: #ffffff;
+  --text-color: #000000;
+  --border-color: #cccccc;
+  --header-color: #006699;
+  --button-background-color: #006699;
+  --button-text-color: #ffffff;
+  --button-border-color: #006699;
+  --table-header-background-color: #006699;
+  --table-header-text-color: #ffffff;
+  --table-border-color: #cccccc;
+}
+
+.dark {
+  --font-family: "Helvetica Neue", sans-serif;
+  --background-color: #222222;
+  --text-color: #cccccc;
+  --border-color: #444444;
+  --header-color: #cccccc;
+  --button-background-color: #006699;
+  --button-text-color: #ffffff;
+  --button-border-color: #006699;
+  --table-header-background-color: #444444;
+  --table-header-text-color: #ffffff;
+  --table-border-color: #444444;
+}
+
+
+
+/* Use the variables to style the elements */
+#content {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
+}
+#content {
+  background-color: var(--background-color);
+  /* other CSS properties */
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+nav a:hover {
+  color: #000;
+}
+body {
+    font-family: var(--font-family);
+    color: var(--text-color);
+    background-color: var(--background-color);
+  } 
+  
+  h1 {
+    text-align: center;
+    color: var(--header-color);
+  }
+  
+  form {
+    margin: 50px auto;
+    width: 500px;
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    background-color: var(--border-color);
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: var(--button-background-color);
+    color: var(--button-text-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  
+
+  button[id="theme-toggle"] {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: var(--button-background-color);
+    color: var(--button-text-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: var(--button-background-color);
+    color: var(--button-text-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  table {
+    margin: 50px auto;
+    border-collapse: collapse;
+    width: 500px;
+    font-size: 14px;
+    font-weight: normal;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid var(--table-border-color);
+    text-align: left;
+  }
+  
+  th {
+    background-color: var(--table-header-background-color);
+    color: var(--table-header-text-color);
+    font-weight: bold;
+  }
+  
+  td {
+    text-align: left;
+    vertical-align: top;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #065b94;
+  }
+  button[type="theme-toggle"]:hover {
+    background-color: #065b94;
+  }
+  button:hover {
+    background-color: #065b94;
+  }

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>tsxbns</title>
+    <script type="module" src="./js/createRow.js"></script>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- Add a button to toggle the theme -->
+<button id="theme-toggle">Toggle Theme</button>
+  </head>
+
+  <body>
+    <h1>TSX Buy and Sell App</h1>
+
+    <nav>
+      <ul>
+        <li><a href="#" id="list-view-link">Stock List</a></li>
+        <li><a href="#" id="detail-view-link">Orders</a></li>
+      </ul>
+    </nav>    
+
+    <!-- HTML form for creating a new category -->
+    <form id="add-stock-form">
+      <h2>Add a new stock</h2>
+      <label>
+        Name:
+        <input type="text" name="name" />
+      </label>
+      <button type="submit">Create</button>
+    </form>
+    <p class="stock-data">
+    <!-- HTML table for displaying categories -->
+    <table id="categories-table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Currency</th>
+          <th>Price</th>
+          <th>52 week</th>
+          <th>PE</th>
+          <th>Dividend Rate</th>
+          <th>Dividend Yield</th>
+          <th>Analyst Score</th>
+          
+        </tr>
+      </thead>
+      <tbody>
+        <!-- The table body will be populated with JavaScript -->
+      </tbody>
+    </table>
+
+  
+
+
+    
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
