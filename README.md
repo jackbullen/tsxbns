@@ -1,4 +1,4 @@
 # tsxBnS
  Simple Toronto Stock Exchange Buy and Sell App.
 
-Probably will get CORS error.
+Will throw a CORS error if using through GitHub pages. If you run locally and use firefox CORS extension it will work properly.
